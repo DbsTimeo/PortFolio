@@ -41,6 +41,8 @@ section .competences {
   grid-template-columns: 25% 25% 45%;
   gap: 2rem;
   margin-top: 2rem;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
 
 section .competences div {
@@ -90,4 +92,5 @@ section .competences div {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+
 }
