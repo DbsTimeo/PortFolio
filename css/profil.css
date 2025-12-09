@@ -20,13 +20,13 @@
   gap: 1rem;
 }
 
-#profil .skills h3 {
+#profil .skills h2 {
   grid-column: 1 / -1; /* le titre prend toute la ligne */
   margin-bottom: 1rem;
 }
 
 
-section h3 {
+section h2 {
   grid-column: 1;
   text-align: center;
   font-size: 1.5rem;
@@ -78,8 +78,9 @@ section .competences div {
   margin: 0.5rem;
 }
 
-#profil h2 {
+#profil .passion h2 {
   position: relative;
+  color: var(--texte-principal);
   left: 50%;
   transform: translateX(-50%);
   max-width: 600px;
@@ -92,5 +93,4 @@ section .competences div {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
-
 }
