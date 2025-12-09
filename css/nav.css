@@ -1,0 +1,40 @@
+/* Menu de navigation fixe */
+ul {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 1rem 0;
+  z-index: 2;
+}
+
+/* enlève les points des elts de la liste*/
+ul li {
+  list-style: none;
+}
+
+ul a {
+  color: var(--texte-principal);
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.5rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 0.5rem;
+  transition: background 0.3s, border-color 0.3s;
+}
+.haut{
+  margin-top: 0.5%;
+}
+.steam {
+  margin-top: 0.5%;
+}
+
+ul a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  border-color: #fff;
+}

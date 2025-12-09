@@ -1,0 +1,90 @@
+
+/* Section globale des projets */
+#projet {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 2rem;
+  margin: 4rem auto 2rem auto;
+  max-width: 1000px;
+  z-index: 2;
+}
+
+#proj_web {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Chaque bloc projet */
+#projet section {
+  background: var(--fond);
+  border-radius: 15px;
+  padding: 2rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  color: #f0f0f0;
+}
+
+
+
+#projet section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+}
+
+#proj_web p {
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 1rem; /*  ajout d’un espacement raisonnable */
+  align-items: center;
+  gap: 1.5rem;
+}
+
+/* Titres */
+#projet h2 {
+  display: inline-block;
+  position: relative;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+  color: #ff9966;
+  text-shadow: 0 0 6px rgba(255, 153, 102, 0.4);
+}
+
+
+#projet p {
+  position: relative;
+  font-size: 1rem;
+  display: flex;
+  margin-top: 1rem; /* espacement simple */
+  line-height: 1.6;
+  color: var(--texte-principal);
+}
+
+#projet img {
+  width: 200px;
+  /* force la hauteur identique */
+  object-fit: cover; 
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+
+#projet img:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 25px rgba(0, 255, 200, 0.5);
+}
+
+#PPython{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  padding:5%;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  transition: transform 0.5s ease, box-shadow 0.5s ease;
+  background: var(--fond);
+}
+
