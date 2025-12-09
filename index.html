@@ -7,6 +7,10 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="css/accueil.css">
     <link rel="stylesheet" href="css/const.css">
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/projet.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/profil.css">
 
     <!-- Import de polices externes (Google Fonts) -->
 
@@ -18,8 +22,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
-    <div class="background-decoration decoration-left"></div>
-    <div class="background-decoration decoration-right"></div>
 
     <div class="star-layer">
         <div class="star"></div>
@@ -43,18 +45,18 @@
 
     <ul>
         <li class="haut"><a href="#profil" >profil</a></li>
-        <li class="haut"><a href="#projets" >Projets</a></li>
         <li class="haut"><a href="#competences" > Compétences</a></li>
+        <li class="haut"><a href="#projet" >Projets</a></li>
         <li class="haut"><a href="#contact" >Contact</a></li>
-        <li class="github"></li><a href="https://github.com/DbsTimeo"><i class="fa-brands fa-github fa-beat"></i>></a></li>
+        <li class="github"><a href="https://github.com/DbsTimeo"><i class="fa-brands fa-github fa-beat"></i>></a></li>
         <li class="steam"><a href="https://steamcommunity.com/profiles/76561199481047164/"><i class="fa-brands fa-steam"></i></a></li>
     </ul>
 
     <!--image PP/!-->
-    <img src="Images/PP.jpg" class=PP>
+    <img src="Images/PP.jpg" class=PP alt="Photo de profil">
 
     <section id="psesentation">
-        <h1 class="presentation">Bonjour, je suis Timéo Dubois</h1>
+        <h2 class="presentation">Bonjour, je suis Timéo Dubois</h2>
         <br>
         <h2 class="presentation">Bienvenue sur mon portfolio</h2>
     </section>
@@ -69,7 +71,7 @@
                 <p>🌌 L'astronomie</p>
             </section>
             <section>
-                <h2>Compétences</h2>
+                <h1 id="competences">Compétences</h1>
                 <section class="competences">
                     <div class="langage">
                         <h3>Langages de programmation</h3>
@@ -106,10 +108,12 @@
                 </section>
             </section>
     </section>
+
     
     <section id="projet">
+        <h1>Projets</h1>
         <section id="proj_web">
-            <h1>Projet Web</h1>
+            <h2>Projet Web</h2>
             <p>Projet Web avec html CSS et java pour afficher et lire de la musique.</p>
             <figure>
                 <a href="projet/proj_musique.html">
@@ -119,7 +123,7 @@
         </section>
 
         <section id="proj_python">
-            <h1>Projets python</h1>
+            <h2>Projets python</h2>
             <br>
             <p>Voici differents projets pythons, ce sont principalements des jeux recréés ou des modifications d'images.</p>
         
@@ -132,16 +136,19 @@
         </div>
     </section>
 
+    <section id="contact">
+        <h1>Contactez-moi</h1>
+        <p>Vous pouvez me contacter via mon email: <a class='bouton' href="mailto:dbs.timeo@gmail.com">Envoyer un email</a></p>
+    </section>
 
 
-    <a href='https://fr.wikipedia.org/wiki/Elon_Musk'>Compétences</a>
+    <a class='bouton' href='https://open.spotify.com/intl-fr/artist/6XyY86QOPPrYVGvF9ch6wz?si=8VEUVW8xT4mbSNMNxot6ww'>Linkin Park</a>
         
+    <a class='bouton' href='https://open.spotify.com/intl-fr/artist/0L8ExT028jH3ddEcZwqJJ5?si=KU4jqx2zQtm0Ldt3-MYM1Q'>Red Hot Chili Peppers</a>
 
-    <a href='https://open.spotify.com/intl-fr/track/6QewNVIDKdSl8Y3ycuHIei?si=ed0d8b901ba142c6'>Skate3</a>
+    <a class='bouton' href='https://open.spotify.com/intl-fr/artist/7k73EtZwoPs516ZxE72KsO?si=Wf7hWt8YQkewHBIu9vzO6A'>One Ok Rock</a>
 
-   
+    <a class='bouton' href="https://open.spotify.com/intl-fr/artist/165ZgPlLkK7bf5bDoFc6Sb?si=fme4X-a9SxmzW-1Z6pgfKA">Limp Bizkit</a>
 </body>
 
-
 </html>
-
