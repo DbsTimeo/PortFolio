@@ -1,5 +1,4 @@
 
-/* Section globale des projets */
 #projet {
   position: relative;
   display: flex;
@@ -18,7 +17,7 @@
   gap: 1.5rem;
 }
 
-/* Chaque bloc projet */
+/*bloc projet */
 #projet section {
   background: var(--fond);
   border-radius: 15px;
@@ -39,7 +38,7 @@
   position: relative;
   display: flex;
   flex-direction: row-reverse;
-  margin-top: 1rem; /*  ajout d’un espacement raisonnable */
+  margin-top: 1rem; 
   align-items: center;
   gap: 1.5rem;
 }
@@ -59,7 +58,7 @@
   position: relative;
   font-size: 1rem;
   display: flex;
-  margin-top: 1rem; /* espacement simple */
+  margin-top: 1rem; 
   line-height: 1.6;
   color: var(--texte-principal);
 }
@@ -88,3 +87,26 @@
   background: var(--fond);
 }
 
+@media (max-width: 768px) {
+  #proj_web {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #proj_web p {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #projet img {
+    width: 100%;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+
+  #PPython {
+    grid-template-columns: 2fr;
+    padding: 1rem;
+    gap: 1.2rem;
+  }
+}
