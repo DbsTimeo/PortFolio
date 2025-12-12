@@ -93,4 +93,27 @@ section .competences div {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-style: normal;
+
+}
+
+@media (max-width: 768px) {
+   section .competences {
+    grid-template-columns: 1fr;
+  }
+  /*langages*/
+  #profil .langage-grid {
+    grid-template-columns: 1fr; /* 1 colonne */
+  }
+  /*Spécialités*/
+  #profil .specialite-grid {
+    grid-template-columns: 1fr;
+  }
+  /*soft skills */
+  #profil .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  #profil p {
+    max-width: 90%;
+    padding: 1.2rem;
+  }
 }
